@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    text-align: center;
+    background-color: #0099ff;
+    color: white;
+}
+
+.inputBox {
+    box-sizing: border-box;
+    /* margin-top: px; */
+    padding: 5px;
+    font-size: 15px;
+   
+
+}
+
+input[type="text"] {
+
+}
+
+.inputBox input {
+    display: block;
+    width: 95%;
+    margin-top: 10px;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: black;
+    border: #0099ff 2px solid;
+    border-radius: 5px ;
+}
+
+.inputBox input::after {
+    border: #0099ff 2px solid;
+}
