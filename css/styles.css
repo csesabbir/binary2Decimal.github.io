@@ -33,5 +33,15 @@ header {
 }
 
 .inputBox input::after {
-    border: #0099ff 2px solid;
+    outline: #0099ff 2px solid;
+}
+
+/** button **/
+
+.btn-ctn button {
+    padding: 15px;
+    border: none;
+    float: left;
+    margin: 5px;
+    width: 100px;
 }
