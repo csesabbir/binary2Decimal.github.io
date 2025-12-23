@@ -16,7 +16,7 @@ header {
     /* margin-top: px; */
     padding: 5px;
     font-size: 15px;
-   
+    margin-left: 20px;
 
 }
 
@@ -29,19 +29,26 @@ header {
     font-size: 18px;
     color: black;
     border: #0099ff 2px solid;
-    border-radius: 5px ;
+    border-radius: 10px ;
 }
 
-.inputBox input::after {
-    outline: #0099ff 2px solid;
-}
 
 /** button **/
 
+.btn-ctn {
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 .btn-ctn button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 15px;
     border: none;
-    float: left;
     margin: 5px;
     width: 100px;
+    flex-direction: row;
+    font-size: 15px;
+    cursor: pointer;
 }

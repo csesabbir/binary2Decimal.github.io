@@ -13,16 +13,17 @@
     </header>
     <main>
         <div class="inputBox">
-            <input type="text" placeholder="Binary">
-            <input type="text" placeholder="Decimal">
+            <input type="text" placeholder="Binary" name="binaryNumber" id ="binaryNumber" disabled>
+            <input type="text" placeholder="Decimal" name="decimalNumber" id="decimalNumber" disabled>
         </div>
         <div class="btn-ctn">
-            <button> 1 </button>
-            <button> 0 </button>
-            <button>Convert</button>
-            <button>Reset</button>
+            <button onclick="singleRemove()">X</button>
+            <button id = "oneProc"> 1 </button>
+            <button id = "zeroProc"> 0 </button>
+            <button onclick="binToDecimal()">Convert</button>
+            <button onclick="reset()">Reset</button>
         </div>
     </main>
-    
+    <script src="./js/main.js"></script>
 </body>
 </html>
